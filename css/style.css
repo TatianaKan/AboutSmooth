@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Waiting for the Sunrise', cursive; */
+  height: 100vh;
+  min-width: 320px;
+  background-color: #fff;
+  color: #433840;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1180px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  width: 225px;
+  height: 73px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  font-size: 18px;
+  gap: 30px;
+}
+
+.nav-link.active {
+  color: #FEA3AC;
+}
+
+.about {
+  position: relative;
+  min-height: 400px;
+  background-image: url('../image/about-bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(130, 15, 15);
+  margin: 0 50px;
+}
+
+.about-text {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 170px);
+ text-align: center;
+  color: #FFFFFF;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.about-descr {
+  font-family: 'Waiting for the Sunrise';
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+}
