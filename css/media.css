@@ -14,6 +14,23 @@
   .about {
     margin: 0 20px;
   }
+
+  .composition-list {
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .composition-item {
+    gap: 40px;
+  }
+
+  .composition-item__title {
+    font-size: 24px;
+  }
+
+  .composition-item__descr {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 760px) and (min-width: 639px) {
@@ -42,6 +59,23 @@
     font-size: 26px;
     line-height: 1.2;
   }
+
+  .composition-list {
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .composition-item {
+    gap: 20px;
+  }
+
+  .composition-item__title {
+    font-size: 22px;
+  }
+
+  .composition-item__descr {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 640px) and (min-width: 509px) {
@@ -69,6 +103,23 @@
   .about-descr {
     font-size: 20px;
   }
+
+  .composition-list {
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .composition-item {
+    gap: 15px;
+  }
+
+  .composition-item__title {
+    font-size: 18px;
+  }
+
+  .composition-item__descr {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 510px) and (min-width: 409px) {
@@ -95,6 +146,31 @@
   .about-descr {
     font-size: 18px;
   }
+
+  .composition-list {
+    margin-top: 10px;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .composition-item {
+    gap: 20px;
+    flex-direction: row;
+    width: 100%;
+    align-items: start;
+  }
+
+  .composition-item__elem {
+    max-width: 150px;
+  }
+
+  .composition-item__title {
+    font-size: 16px;
+  }
+
+  .composition-item__descr {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 410px) {
@@ -119,5 +195,35 @@
 
   .about-descr {
     font-size: 14px;
+  }
+
+  .composition-list {
+    margin-top: 10px;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .composition-item {
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .composition-item__elem {
+    max-width: 100%;
+  }
+
+  .composition-item__title {
+    font-size: 14px;
+  }
+
+  .composition-item__descr {
+    font-size: 10px;
+  }
+
+  .composition-item__img {
+    width: 50%;
+    margin-left: 25%;
   }
 }
