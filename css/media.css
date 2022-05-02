@@ -6,6 +6,17 @@
   .statistic {
     margin: 0 30px;
   }
+
+  .dream-list {
+    gap: 30px;
+  }
+
+  .dream-item__img {
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+  }
+
 }
 
 
@@ -57,6 +68,23 @@
   .statistic-item__text span {
     font-size: 45px;
   }
+
+  .dream-list {
+    gap: 20px;
+  }
+
+  .dream-item__name {
+    font-size: 26px;
+  }
+
+  .dream-item__career {
+    font-size: 18px;
+  }
+
+  .dream-item__descr {
+    font-size: 13px;
+  }
+
 }
 
 @media (max-width: 760px) and (min-width: 639px) {
@@ -124,6 +152,29 @@
   .statistic-item__text span {
     font-size: 36px;
   }
+
+  .dream-list {
+    gap: 10px;
+  }
+
+  .dream-item__name {
+    font-size: 24px;
+  }
+
+  .dream-item__career {
+    font-size: 16px;
+  }
+
+  .dream-item__descr {
+    font-size: 12px;
+  }
+
+  .dream-item:nth-child(1)::before,
+  .dream-item:nth-child(2)::before,
+  .dream-item:nth-child(3)::after,
+  .dream-item:nth-child(4)::after {
+    width: 90%;
+  }
 }
 
 @media (max-width: 640px) and (min-width: 509px) {
@@ -190,6 +241,55 @@
   .statistic-item__text span {
     font-size: 32px;
   }
+
+  .dream-title {
+    font-size: 36px;
+  }
+
+  .dream-subtitle {
+    font-size: 20px;
+  }
+
+  .dream-list {
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .dream-item {
+    flex-direction: column;
+  }
+
+  .dream-item__image {
+    height: 100px;
+  }
+
+  .dream-item__img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .dream-item__name {
+    font-size: 22px;
+  }
+
+  .dream-item__career {
+    font-size: 14px;
+  }
+
+  .dream-item__descr {
+    font-size: 11px;
+  }
+
+  .dream-item:nth-child(1)::before,
+  .dream-item:nth-child(2)::before,
+  .dream-item:nth-child(3)::after,
+  .dream-item:nth-child(4)::after {
+    width: 100%;
+    height: 75%;
+    top: 25%;
+    left: 0;
+  }
 }
 
 @media (max-width: 510px) and (min-width: 409px) {
@@ -247,6 +347,8 @@
     height: 50%;
   }
 
+
+
   .statistic-list {
     gap: 1%;
   }
@@ -262,6 +364,23 @@
 
   .statistic-item__text span {
     font-size: 26px;
+  }
+
+  .dream-title {
+    font-size: 32px;
+  }
+
+  .dream-subtitle {
+    font-size: 18px;
+  }
+
+  .dream-list {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .dream-item {
+    width: 100%;
   }
 }
 
@@ -339,5 +458,34 @@
 
   .statistic-item__text span {
     font-size: 24px;
+  }
+
+  .dream-list {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .dream-title {
+    font-size: 28px;
+  }
+
+  .dream-subtitle {
+    font-size: 14px;
+  }
+
+  .dream-item {
+    width: 100%;
+  }
+
+  .dream-item__name {
+    font-size: 20px;
+  }
+
+  .dream-item__career {
+    font-size: 12px;
+  }
+
+  .dream-item__descr {
+    font-size: 10px;
   }
 }
