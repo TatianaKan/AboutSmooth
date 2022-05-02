@@ -201,3 +201,116 @@ h6 {
   font-size: 60px;
   display: block;
 }
+
+.dream-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.dream-subtitle {
+  font-family: 'Waiting for the Sunrise';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.66;
+  color: #F7A1A8;
+  text-align: center;
+}
+
+.dream-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.dream-item {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dream-item:nth-child(1)::before,
+.dream-item:nth-child(2)::before {
+  content: '';
+  width: 393px;
+  height: 380px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #C9E3F4;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.dream-item:nth-child(3)::after,
+.dream-item:nth-child(4)::after {
+  content: '';
+  width: 393px;
+  height: 380px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  z-index: -1;
+  padding: 0;
+}
+
+.dream-item:nth-child(1)::before,
+.dream-item:nth-child(4)::after {
+  background-color: #C9E3F4;
+}
+
+.dream-item:nth-child(2)::before,
+.dream-item:nth-child(3)::after {
+  background-color: #DFEEB6;
+}
+
+.item-left {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+
+.dream-item__img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.dream-item__text {
+  margin: 16px;
+}
+
+.dream-item__name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.26;
+  color: #FFFFFF;
+}
+
+.dream-item__career {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.66;
+}
+
+.dream-item__descr {
+  width: 190px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.66;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.dream-item__social {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+}
