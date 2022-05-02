@@ -338,6 +338,7 @@ h6 {
 .contacts-list {
   display: flex;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .contacts-item {
@@ -354,6 +355,9 @@ h6 {
 .contacts-item__day {
   font-size: 20px;
   line-height: 1.75;
+}
+
+.contacts-item__day span {
   color: #DFEEB6;
 }
 
@@ -365,6 +369,7 @@ h6 {
 .contacts-item__info i {
   margin-right: 7px;
   font-size: 18px;
+  color: #DFEEB6;
 }
 
 .contacts-item__info span {
@@ -374,7 +379,8 @@ h6 {
 .instagram-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .instagram-item {
@@ -382,4 +388,27 @@ h6 {
   width: 97px;
   height: 97px;
   object-fit: cover;
+}
+
+.footer {
+  background-color: #433840;
+  height: 60px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copiright {
+  font-size: 15px;
+  line-height: 2.33;
+  color: #FFFFFF;
+}
+
+.footer__social {
+  display: flex;
+  color: #fff;
+  gap: 10px;
 }
