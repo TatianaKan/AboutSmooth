@@ -87,11 +87,11 @@ h6 {
   position: relative;
   height: 400px;
   width: auto;
+  background-color: rgb(6, 181, 187);
   background-image: url('../image/about-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgb(6, 181, 187);
   margin: 0 50px;
 }
 
@@ -146,4 +146,55 @@ h6 {
   font-size: 15px;
   line-height: 1.6;
   color: #9A9A9A;
+}
+
+.statistic {
+  background-color: rgb(247, 123, 177);
+  background-image: url('../image/statisticbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 0 50px 100px 50px;
+  
+}
+
+.statistic .wrapper {
+  position: relative;
+}
+
+.statistic-list {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statistic-item {
+  max-width: 220px;
+}
+
+.statistic-item__img {
+  width: 125px;
+  height: 125px;
+  margin: 0 15%;
+}
+
+.statistic-item__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #fff;
+  text-align: center;
+}
+
+.statistic-item__text span {
+  font-family: 'Waiting for the Sunrise';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  display: block;
 }
