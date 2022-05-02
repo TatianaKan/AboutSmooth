@@ -156,7 +156,6 @@ h6 {
   background-size: cover;
   height: 100%;
   margin: 0 50px 100px 50px;
-  
 }
 
 .statistic .wrapper {
@@ -164,23 +163,27 @@ h6 {
 }
 
 .statistic-list {
+  width: calc(100% - 30px);
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
-  gap: 150px;
+  gap: 5%;
   align-items: center;
   justify-content: space-between;
 }
 
 .statistic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
   max-width: 220px;
 }
 
 .statistic-item__img {
   width: 125px;
   height: 125px;
-  margin: 0 15%;
 }
 
 .statistic-item__text {
