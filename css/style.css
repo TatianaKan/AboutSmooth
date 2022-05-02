@@ -337,6 +337,7 @@ h6 {
 
 .contacts-list {
   display: flex;
+  gap: 10px;
 }
 
 .contacts-item {
@@ -378,4 +379,7 @@ h6 {
 
 .instagram-item {
   border-radius: 5px;
+  width: 97px;
+  height: 97px;
+  object-fit: cover;
 }
